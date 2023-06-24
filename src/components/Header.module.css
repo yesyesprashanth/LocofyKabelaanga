@@ -1,0 +1,107 @@
+.logoIcon {
+  position: relative;
+  width: 42px;
+  height: 51.33px;
+}
+.kabelenga {
+  position: relative;
+  display: inline-block;
+  width: 848px;
+  flex-shrink: 0;
+}
+.brandname {
+  flex: 1;
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs);
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.homeIcon {
+  width: 36px;
+  height: 36px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.home1,
+.homeIcon {
+  position: relative;
+}
+.home,
+.menu,
+.notification,
+.post {
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs);
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-3xs);
+}
+.menu,
+.notification,
+.post {
+  color: var(--color-black);
+}
+.menu,
+.notification {
+  color: var(--color-gray-300);
+}
+.menu {
+  flex: 1;
+  background-color: var(--color-white);
+  border-bottom: 1px solid var(--color-gray-100);
+  padding: var(--padding-3xs) 0;
+  justify-content: flex-end;
+  font-size: var(--font-size-5xl);
+  color: var(--color-gray-100);
+}
+.menu1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  background-image: url(/public/menu@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  display: none;
+}
+.navbar {
+  margin: 0;
+  align-self: stretch;
+  background-color: var(--color-white);
+  border-bottom: 1px solid var(--color-gray-100);
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-61xl);
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-141xl);
+  z-index: 0;
+  text-align: left;
+  font-size: var(--font-size-17xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 960px) {
+  .brandname {
+    width: 200px;
+  }
+  .menu {
+    display: none;
+  }
+  .menu1 {
+    display: flex;
+  }
+}
+@media screen and (max-width: 420px) {
+  .menu {
+    display: none;
+  }
+}

@@ -1,0 +1,227 @@
+.kabelengaInc2nd {
+  flex: 1;
+  position: relative;
+}
+.address {
+  background-color: var(--color-black);
+  width: 288px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+}
+.facebookChild {
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-white);
+  width: 47px;
+  height: 47px;
+  z-index: 0;
+}
+.f {
+  position: absolute;
+  margin: 0 !important;
+  top: 3px;
+  left: 16px;
+  display: inline-block;
+  z-index: 1;
+}
+.facebook {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  gap: var(--gap-3xs);
+}
+.iconInstagram {
+  position: absolute;
+  margin: 0 !important;
+  height: 51.06%;
+  width: 51.06%;
+  top: 25.53%;
+  right: 23.4%;
+  bottom: 23.4%;
+  left: 25.53%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+}
+.insta {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  gap: var(--gap-3xs);
+}
+.iconTwitter {
+  position: absolute;
+  margin: 0 !important;
+  height: 41.5%;
+  width: 51.06%;
+  top: 29.79%;
+  right: 23.4%;
+  bottom: 28.71%;
+  left: 25.53%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+}
+.socialPages,
+.twitter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.twitter {
+  flex: 1;
+  justify-content: flex-end;
+  position: relative;
+  gap: var(--gap-3xs);
+}
+.socialPages {
+  background-color: var(--color-black);
+  width: 182px;
+  justify-content: flex-start;
+  gap: var(--gap-4xl);
+  font-size: var(--font-size-17xl);
+  color: var(--color-black);
+}
+.aboutUs,
+.company,
+.footerAddress {
+  display: flex;
+  align-items: flex-start;
+}
+.footerAddress {
+  flex: 1;
+  background-color: var(--color-black);
+  flex-direction: column;
+  justify-content: center;
+  gap: var(--gap-lg);
+}
+.aboutUs,
+.company {
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.company {
+  padding: var(--padding-3xs);
+  font-size: var(--font-size-5xl);
+}
+.aboutUs {
+  align-self: stretch;
+  padding: 0 var(--padding-3xs);
+}
+.news {
+  position: relative;
+}
+.howWeWork {
+  margin: 0;
+}
+.aboutUs4 {
+  align-self: stretch;
+  height: 22px;
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-3xs);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.companyMenu {
+  background-color: var(--color-black);
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-3xs);
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-8xs);
+}
+.asiaOfficeWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.aboutUs8 {
+  height: 24px;
+  padding: 0 var(--padding-3xs);
+  box-sizing: border-box;
+  align-items: flex-start;
+}
+.aboutUs11,
+.aboutUs8,
+.aboutUs9,
+.company3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.company3 {
+  padding: var(--padding-3xs);
+  align-items: flex-start;
+  font-size: var(--font-size-5xl);
+}
+.aboutUs11,
+.aboutUs9 {
+  padding: 0 var(--padding-3xs);
+  align-items: center;
+  text-align: left;
+}
+.aboutUs11 {
+  align-items: flex-start;
+}
+.footer,
+.footerMenu,
+.more {
+  background-color: var(--color-black);
+  display: flex;
+}
+.more {
+  width: 159px;
+  flex-direction: column;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-8xs);
+}
+.footer,
+.footerMenu {
+  flex-direction: row;
+}
+.footerMenu {
+  width: 722px;
+  align-items: center;
+  justify-content: space-between;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+}
+.footer {
+  align-self: stretch;
+  height: 190px;
+  padding: 0 var(--padding-61xl);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-29xl);
+  z-index: 4;
+  text-align: center;
+  font-size: var(--font-size-xs);
+  color: var(--color-gray-400);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 960px) {
+  .footer {
+    flex-wrap: wrap;
+  }
+}

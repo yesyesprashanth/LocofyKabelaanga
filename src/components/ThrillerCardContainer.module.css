@@ -1,0 +1,51 @@
+.cardPicIcon {
+  align-self: stretch;
+  max-width: 100%;
+  overflow: hidden;
+  height: 218px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.thriller {
+  position: relative;
+}
+.genre {
+  flex-direction: row;
+  align-items: center;
+}
+.card,
+.cardName,
+.genre,
+.title {
+  display: flex;
+  justify-content: flex-start;
+}
+.title {
+  flex-direction: row;
+  align-items: center;
+  font-size: var(--font-size-11xl);
+  color: var(--color-black);
+}
+.card,
+.cardName {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.cardName {
+  align-self: stretch;
+  padding: 0 var(--padding-3xs);
+}
+.card {
+  border-radius: var(--br-11xl) var(--br-11xl) 0 0;
+  border: 1px solid var(--color-gray-200);
+  box-sizing: border-box;
+  width: 413px;
+  height: 320px;
+  overflow: hidden;
+  flex-shrink: 0;
+  gap: var(--gap-3xs);
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--color-midnightblue);
+  font-family: var(--font-inter);
+}

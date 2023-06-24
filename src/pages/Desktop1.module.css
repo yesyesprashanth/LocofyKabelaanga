@@ -1,414 +1,70 @@
-.logoIcon {
-  position: relative;
-  width: 42px;
-  height: 51.33px;
-}
 .kabelenga {
-  flex: 1;
   position: relative;
 }
-.brandname {
-  flex: 1;
+.body,
+.heading {
   background-color: var(--color-white);
   display: flex;
   flex-direction: row;
   padding: var(--padding-3xs);
   align-items: center;
-  justify-content: flex-start;
-  gap: 20px;
-}
-.homeIcon {
-  position: relative;
-  width: 36px;
-  height: 36px;
-  overflow: hidden;
-  flex-shrink: 0;
-}
-.home,
-.post {
-  padding: var(--padding-3xs);
-  align-items: center;
   justify-content: center;
-  gap: var(--gap-3xs);
-}
-.home {
-  display: flex;
-  flex-direction: row;
-}
-.post {
-  color: var(--color-black);
-}
-.menu,
-.notification,
-.post {
-  display: flex;
-  flex-direction: row;
-}
-.notification {
-  padding: var(--padding-3xs);
-  align-items: center;
-  justify-content: center;
-  gap: var(--gap-3xs);
-  color: rgba(0, 0, 0, 0.94);
-}
-.menu {
-  flex: 1;
-  border-bottom: 1px solid var(--color-gray-100);
-  padding: var(--padding-3xs) 0;
-  justify-content: space-between;
-  font-size: var(--font-size-5xl);
-  color: var(--color-gray-100);
-}
-.heading,
-.menu,
-.navbar {
-  background-color: var(--color-white);
-  align-items: center;
-}
-.navbar {
-  position: absolute;
-  top: 0;
-  left: 0;
-  border-bottom: 1px solid var(--color-gray-100);
-  box-sizing: border-box;
-  width: 1440px;
-  display: flex;
-  flex-direction: row;
-  padding: 0 var(--padding-61xl);
-  justify-content: flex-start;
-  gap: 160px;
-  text-align: left;
 }
 .heading {
-  justify-content: center;
-}
-.address,
-.body,
-.heading,
-.heading2 {
-  display: flex;
-  flex-direction: row;
-  padding: var(--padding-3xs);
+  flex: 1;
 }
 .body {
-  position: absolute;
-  top: 134px;
-  left: calc(50% - 110px);
-  background-color: var(--color-white);
-  overflow: hidden;
-  align-items: flex-start;
-  justify-content: space-between;
-}
-.address,
-.heading2 {
-  box-sizing: border-box;
-  align-items: center;
-}
-.heading2 {
-  position: absolute;
-  top: 249px;
-  left: calc(50% - 329px);
-  background-color: var(--color-white);
-  width: 658px;
-  justify-content: center;
-  font-size: 48px;
-}
-.address {
-  background-color: var(--color-black);
-  width: 288px;
-  justify-content: flex-start;
-}
-.facebookChild {
-  position: relative;
-  border-radius: 50%;
-  background-color: var(--color-white);
-  width: 47px;
-  height: 47px;
-  z-index: 0;
-}
-.f {
-  position: absolute;
-  margin: 0 !important;
-  top: 3px;
-  left: 16px;
-  display: inline-block;
-  z-index: 1;
-}
-.facebook {
-  flex: 1;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
-  position: relative;
-  gap: var(--gap-3xs);
-}
-.iconInstagram {
-  position: absolute;
-  margin: 0 !important;
-  height: 51.06%;
-  width: 51.06%;
-  top: 25.53%;
-  right: 23.4%;
-  bottom: 23.4%;
-  left: 25.53%;
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
-  z-index: 1;
-}
-.insta {
-  flex: 1;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  gap: var(--gap-3xs);
-}
-.iconTwitter {
-  position: absolute;
-  margin: 0 !important;
-  height: 41.5%;
-  width: 51.06%;
-  top: 29.79%;
-  right: 23.4%;
-  bottom: 28.71%;
-  left: 25.53%;
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
-  z-index: 1;
-}
-.socialPages,
-.twitter {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-.twitter {
-  flex: 1;
-  justify-content: flex-end;
-  position: relative;
-  gap: var(--gap-3xs);
-}
-.socialPages {
-  background-color: var(--color-black);
-  width: 182px;
-  justify-content: flex-start;
-  gap: 23px;
-  font-size: var(--font-size-17xl);
-  color: var(--color-black);
-}
-.aboutUs,
-.company,
-.footerAddress {
-  display: flex;
-  align-items: flex-start;
-}
-.footerAddress {
-  flex: 1;
-  background-color: var(--color-black);
-  flex-direction: column;
-  justify-content: center;
-  gap: 18px;
-}
-.aboutUs,
-.company {
-  flex-direction: row;
-  justify-content: flex-start;
-}
-.company {
-  padding: var(--padding-3xs);
-  font-size: var(--font-size-5xl);
-}
-.aboutUs {
-  align-self: stretch;
-  padding: 0 var(--padding-3xs);
-}
-.news {
-  position: relative;
-}
-.howWeWork {
   margin: 0;
-}
-.aboutUs4 {
   align-self: stretch;
-  height: 22px;
-  display: flex;
-  flex-direction: row;
-  padding: 0 var(--padding-3xs);
-  box-sizing: border-box;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-.companyMenu {
-  background-color: var(--color-black);
-  display: flex;
-  flex-direction: column;
-  padding: var(--padding-3xs);
-  align-items: center;
-  justify-content: center;
-  gap: var(--gap-8xs);
-}
-.asiaOfficeWrapper {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-.aboutUs8 {
-  height: 24px;
-  padding: 0 var(--padding-3xs);
-  box-sizing: border-box;
-  align-items: flex-start;
-}
-.aboutUs11,
-.aboutUs8,
-.aboutUs9,
-.company3 {
-  align-self: stretch;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-}
-.company3 {
-  padding: var(--padding-3xs);
-  align-items: flex-start;
-  font-size: var(--font-size-5xl);
-}
-.aboutUs11,
-.aboutUs9 {
-  padding: 0 var(--padding-3xs);
-  align-items: center;
-  text-align: left;
-}
-.aboutUs11 {
-  align-items: flex-start;
-}
-.footer,
-.footerMenu,
-.more {
-  background-color: var(--color-black);
-  display: flex;
-}
-.more {
-  width: 159px;
-  flex-direction: column;
-  padding: var(--padding-3xs);
-  box-sizing: border-box;
-  align-items: center;
-  justify-content: center;
-  gap: var(--gap-8xs);
-}
-.footer,
-.footerMenu {
-  flex-direction: row;
-}
-.footerMenu {
-  width: 722px;
-  align-items: center;
-  justify-content: space-between;
-  font-size: var(--font-size-base);
-  color: var(--color-white);
-}
-.footer {
-  position: absolute;
-  top: 1519px;
-  left: 0;
-  width: 1440px;
-  height: 190px;
-  padding: 0 var(--padding-61xl);
-  box-sizing: border-box;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: 48px;
-  font-size: 12px;
-  color: rgba(255, 255, 255, 0.68);
-}
-.cardPicIcon {
-  align-self: stretch;
-  max-width: 100%;
   overflow: hidden;
-  height: 218px;
-  flex-shrink: 0;
-  object-fit: cover;
+  z-index: 1;
+  font-size: inherit;
+  font-family: inherit;
 }
-.genre,
-.title {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
+.tellingStoriesWithout {
+  flex: 1;
+  position: relative;
 }
-.title {
-  font-size: var(--font-size-11xl);
-  color: var(--color-black);
-}
-.card,
-.cardName,
-.cardllist {
-  display: flex;
-  align-items: flex-start;
-}
-.cardName {
+.heading2 {
+  margin: 0;
   align-self: stretch;
-  flex-direction: column;
-  padding: 0 var(--padding-3xs);
-  justify-content: flex-start;
-}
-.card,
-.cardllist {
-  overflow: hidden;
-  box-sizing: border-box;
-}
-.card {
-  border-radius: var(--br-11xl) var(--br-11xl) 0 0;
-  border: 1px solid var(--color-gray-200);
-  width: 413px;
-  height: 320px;
-  flex-shrink: 0;
-  flex-direction: column;
-  justify-content: flex-start;
-  gap: var(--gap-3xs);
-}
-.cardllist {
-  position: absolute;
-  top: 466px;
-  left: 80px;
   background-color: var(--color-white);
-  width: 1280px;
+  display: flex;
   flex-direction: row;
-  padding: var(--padding-3xs) 0;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  font-size: var(--font-size-lg);
-  color: var(--color-midnightblue);
+  padding: var(--padding-3xs);
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  font-size: 48px;
+  font-family: inherit;
 }
 .menuIcon {
   position: absolute;
+  margin: 0 !important;
   top: 12px;
-  left: 746px;
+  left: 859px;
   width: 54px;
   height: 54px;
   object-fit: cover;
   display: none;
+  z-index: 5;
 }
 .desktop1 {
   position: relative;
   background-color: var(--color-white);
   width: 100%;
-  height: 1709px;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 65px;
   text-align: center;
   font-size: var(--font-size-17xl);
   color: var(--color-black);
   font-family: var(--font-inter);
 }
 @media screen and (max-width: 420px) {
-  .menu {
-    display: none;
-  }
   .menuIcon {
     display: flex;
   }

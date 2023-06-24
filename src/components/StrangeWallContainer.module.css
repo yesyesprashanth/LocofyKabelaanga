@@ -1,0 +1,77 @@
+.cardPicIcon {
+  align-self: stretch;
+  max-width: 100%;
+  overflow: hidden;
+  height: 218px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.thriller {
+  position: relative;
+}
+.genre {
+  flex-direction: row;
+  align-items: center;
+}
+.cardName,
+.genre,
+.title {
+  display: flex;
+  justify-content: flex-start;
+}
+.title {
+  flex-direction: row;
+  align-items: center;
+  font-size: var(--font-size-11xl);
+  color: var(--color-black);
+}
+.cardName {
+  align-self: stretch;
+  flex-direction: column;
+  padding: 0 var(--padding-3xs);
+  align-items: flex-start;
+}
+.card,
+.cardllist {
+  overflow: hidden;
+  display: flex;
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--color-midnightblue);
+  font-family: var(--font-inter);
+}
+.card {
+  border-radius: var(--br-11xl) var(--br-11xl) 0 0;
+  border: 1px solid var(--color-gray-200);
+  box-sizing: border-box;
+  width: 413px;
+  height: 320px;
+  flex-shrink: 0;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.cardllist {
+  align-self: stretch;
+  background-color: var(--color-white);
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-61xl);
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  z-index: 3;
+}
+@media screen and (max-width: 1200px) {
+  .cardllist {
+    max-width: 1700px;
+  }
+}
+@media screen and (max-width: 960px) {
+  .cardllist {
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap-0);
+    flex-wrap: wrap;
+  }
+}
