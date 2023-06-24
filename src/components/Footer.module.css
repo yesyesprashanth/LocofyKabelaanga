@@ -187,7 +187,7 @@
   display: flex;
 }
 .more {
-  width: 159px;
+  min-width: 180px;
   flex-direction: column;
   padding: var(--padding-3xs);
   box-sizing: border-box;
